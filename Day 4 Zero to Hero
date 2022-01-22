@@ -1,0 +1,97 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled22.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNioHMQa9qwT+TEbDKyiC8y",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TheHornedGod/Python-Zero2Hero/blob/main/Day%204%20Zero%20to%20Hero\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "r_5BOcfXUWRb"
+      },
+      "outputs": [],
+      "source": [
+        "def add_2(a): \n",
+        "  return a+2"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "items = [1,2,3,4,5,6,7,8,9]\n"
+      ],
+      "metadata": {
+        "id": "fRz-98_DXad1"
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for each_item in items :\n",
+        "  print(f\"original item was: {each_item}, added 2 to it:{add_2(each_item)}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LuVqkvItXiD5",
+        "outputId": "56cce934-9f04-4d54-f48b-8b9647573ee3"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "original item was: 1, added 2 to it:3\n",
+            "original item was: 2, added 2 to it:4\n",
+            "original item was: 3, added 2 to it:5\n",
+            "original item was: 4, added 2 to it:6\n",
+            "original item was: 5, added 2 to it:7\n",
+            "original item was: 6, added 2 to it:8\n",
+            "original item was: 7, added 2 to it:9\n",
+            "original item was: 8, added 2 to it:10\n",
+            "original item was: 9, added 2 to it:11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "DLJ9DtEEYraw"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
