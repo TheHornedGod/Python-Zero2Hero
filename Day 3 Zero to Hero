@@ -1,0 +1,192 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled21.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMxuSFxPnUZ6LcXl7rhLyk6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/TheHornedGod/Python-Zero2Hero/blob/main/Day%203%20Zero%20to%20Hero\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 11,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hJuqRTQSLAPt",
+        "outputId": "2f11c85c-3ee4-4c03-ddbd-03e82d3fb3d0"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter user nameSafwan Ali\n"
+          ]
+        }
+      ],
+      "source": [
+        "name = input(f\"Enter user name\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age = input(f\"Enter LetsUpgrader age\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RCOeRX-ROw74",
+        "outputId": "f770808e-1669-4869-89d4-03f3a272a2e3"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter LetsUpgrader age24\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "address = input(f\"Enter address\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UqqSXeCbRnIY",
+        "outputId": "67a2eaa6-908e-4372-e137-92fdaaba30e3"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter address Hyderabad\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "qualification = input(f\"Enter qualification\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CepabtPOSQ-v",
+        "outputId": "8a6a30ac-beb9-4cbc-c99a-04fcafe592a9"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter qualification Undergraduate\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "salary = input(f\"Enter salary\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DY9Nc3hySnu_",
+        "outputId": "24619a69-0065-490a-a39e-9ba8831f1630"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter salary None\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "family = input(f\"Enter number of family members\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BVxZ4NXcSxYI",
+        "outputId": "d46f32fd-192e-488e-a86b-102dda935e7d"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter number of family members 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "List = print(f\"name, age, address, qualification, salary, family\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1bnor95bTKeH",
+        "outputId": "1eb911b3-506d-4377-daa3-15a03c0db7ee"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "name, age, address, qualification, salary, family\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
